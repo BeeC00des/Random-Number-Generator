@@ -1,0 +1,28 @@
+/* inner page banner */
+.banner_w3lspvt-2 {
+    background: url(../img/inner.png) no-repeat top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+/* breadcrumb */
+.breadcrumb {
+    background-color: transparent;
+    padding: 5vw 0;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+li.breadcrumb-item a,
+li.breadcrumb-item {
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 14px;
+
+}
+
+/* end breadcrumb */
+/* end inner page banner */

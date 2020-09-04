@@ -1,0 +1,76 @@
+/* animation effect */
+.shape {
+    -webkit-animation: fa-spin 5s infinite linear;
+    -moz-animation: fa-spin 5s infinite linear;
+    -ms-animation: fa-spin 5s infinite linear;
+    -o-animation: fa-spin 1s infinite linear;
+    animation: fa-spin 5s infinite linear;
+}
+
+img.shape-one {
+    top: 50%;
+    position: absolute;
+    right:5%;
+    z-index: -1;
+}
+
+img.shape-two {
+    top: 20%;
+    position: absolute;
+    right: 70%;
+    z-index: -1;
+}
+
+img.shape-three {
+    top: 2%;
+    position: absolute;
+    right: 25%;
+    z-index: -1;
+}
+
+img.shape-four {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    z-index: -1;
+}
+
+img.shape-five {
+    position: absolute;
+    bottom: 25%;
+    right:40%;
+    z-index: -1;
+}
+
+img.shape-six {
+    position: absolute;
+    bottom: 18%;
+    left: 23%;
+    z-index: -1;
+}
+
+/*end of animation effect */
+
+
+
+.animate {
+  -webkit-animation-duration: 5.5s;
+  animation-duration: 5.5s;
+  animation-delay:3.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function:ease-in-out;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count:2;
+  -webkit-animation-iteration-count:2;
+} 
+
+@keyframes bounce { 
+  0%, 20%, 40%, 60%, 80%, 100% {transform: translateY(0);}
+  50% {transform: translateY(-5px);}
+} 
+
+.bounce { 
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}

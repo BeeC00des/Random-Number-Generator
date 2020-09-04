@@ -1,0 +1,54 @@
+/* contact page */
+.content{
+    margin-top: 70px;
+}
+#contact{
+    z-index: 9999;
+}
+form.contact-wthree-do label {
+    letter-spacing: .5px;
+    font-size: 15px;
+}
+
+.contact-wthree-do textarea {
+    height: 180px;
+    resize: none;
+}
+
+.contact-wthree-do .form-control {
+    background: #f8f9fa;
+    padding: 12px 10px;
+    border: 1px solid #dedede;
+    border-left: 3px solid #705ecf;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    color: #000;
+}
+
+button.btn-cont-w3 {
+    background: #705ecf;
+    color: #ffffff;
+    padding: 11px 25px;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    font-size: 16px;
+    max-width: 140px;
+}
+
+.w3l-map iframe {
+    width: 100%;
+    min-height: 400px;
+    border: none;
+    display: block;
+}
+
+/* //contact page */

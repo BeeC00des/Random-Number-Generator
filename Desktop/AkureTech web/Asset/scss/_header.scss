@@ -1,0 +1,29 @@
+html,body{
+//    width: 100%;
+//    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    -webkit-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+    -moz-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+    box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, .1);
+    background: #fff;
+}
+
+.main-top {
+    position:relative;
+    z-index: 1;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+   background-color: rgb(241,243,244);
+}

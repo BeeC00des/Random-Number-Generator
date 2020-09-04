@@ -1,0 +1,47 @@
+
+/* team */
+h4.text-team-w3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #3a3939;
+    margin: 1em 0;
+}
+
+ul.team-socil-w3pvts li span {
+    color: #333;
+    font-size: 15px;
+    margin: 0 6px;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+ul.team-socil-w3pvts li span:hover {
+    opacity: .8;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+}
+
+.ab-content img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+
+.ab-content-inner {
+    padding: 3em;
+    background: #fff;
+    -webkit-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+    -moz-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+    box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+}
+
+/* //team */
+/* end about page */

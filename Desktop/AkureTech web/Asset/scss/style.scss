@@ -1,0 +1,82 @@
+@import  'animation';
+@import  'about';
+@import  'aboutteam';
+@import  'update';
+@import  'button';
+@import  'color';
+@import  'navbar';
+@import  'search';
+@import  'header';
+@import  'innerbanner';
+@import  'firstcont';
+@import  'secondcont';
+@import  'thirdcont';
+@import  'fourthcont';
+@import  'fifthcont';
+@import  'sixthcont';
+@import  'footer';
+@import  'responsive';
+@import  'menu';
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+body button,
+.btn,
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.btn:hover,
+body button:hover {
+    opacity: .8;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+body a:hover {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #51585f;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+

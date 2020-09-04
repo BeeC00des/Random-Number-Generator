@@ -1,0 +1,40 @@
+/* banner */
+.banner {
+    padding: 4vw 0;
+    z-index: 0;
+}
+
+.banner_txt {
+    padding-top: 7vw;
+}
+
+p.text-in-banner {
+    font-size: 14px;
+    color: #51585f;
+    max-width: 800px;
+    margin: 20px 0;
+    @media (max-width: 991px){
+        width:90%;
+        margin: 30px auto;
+        font-size: 13px;
+    }
+}
+
+h3.title {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #202428;
+}
+
+h3.title span {
+    color: #705ecf;
+    
+}
+
+.banner_txt h3 {
+    font-weight: 400;
+    color: #000;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}

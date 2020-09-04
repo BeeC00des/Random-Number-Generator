@@ -1,0 +1,45 @@
+/* project */
+
+#project{
+background-color: #705ecf;
+}
+p.title-sub-2 {
+    font-size: 19px;
+    color: #fff;
+}
+p.sub{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+//    color: #51585f;
+    color: #fff;
+     @media (max-width: 440px){
+         height: 50%;
+         margin-bottom: -80px;
+         font-size: 16px;
+    }
+}
+
+h3.title-w3 {
+    color: #f7f7f7;
+    font-size: 32px;
+}
+
+.count-w3ls h4 {
+    font-size: 30px;
+    font-weight: 600;
+     @media (max-width: 440px){
+        display: none;
+    }
+}
+
+.count-w3ls p {
+    margin-top: 10px;
+    @media (max-width: 440px){
+        display: none;
+    }
+}
+
+/* end of project */

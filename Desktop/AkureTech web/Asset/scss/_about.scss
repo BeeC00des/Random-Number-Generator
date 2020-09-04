@@ -1,0 +1,51 @@
+/* about page */
+
+.about-text{
+    @media(max-width:440px) {
+        margin-left:30px;
+        padding: 0px;
+    }     
+}
+/* why choose */
+
+.content{
+    margin-top:100px;
+}
+.services-grid h4 {
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.services-icon span {
+    font-size: 38px;
+    margin-top: 1em;
+}
+
+.icon-clr1 {
+    color: #00a3e2;
+}
+
+.icon-clr2 {
+    color: #b764d8;
+}
+
+.icon-clr3 {
+    color: #e53b2c;
+}
+
+.icon-clr4 {
+    color: #0ca799;
+}
+
+.icon-clr5 {
+    color: #39dcb1;
+}
+
+.icon-clr6 {
+    color: #feb155;
+}
+
+/* end why choose */
+/* end about page */
